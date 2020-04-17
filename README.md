@@ -67,7 +67,7 @@ I've also made the Processing sketch, to read grayscale or color image. The gray
 
 ![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)![hand](images/hand.jpg)
 ![test subjects](images/testsubjects.jpg)
-![green](images/green.jpg)![red](images/red.jpg)![blue](images/blue.jpg)![yellow](images/yellow.jpg)
+![green](images/green.jpg)![red](images/red.jpg)![blue](images/blue.jpg)![yellow](images/yellow.jpg)![pink](images/pink.jpg)![blu](images/blu.jpg)
 
 ------------
 
