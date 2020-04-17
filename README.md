@@ -5,9 +5,11 @@ The ADNS2610 is a common mouse sensor, mostly used in Logitech mice. With that l
 - color sensor
 - movement sensor
 - grayscale or color camera
+
 ![setup](images/setup.jpg)
-![setup](images/colors.gif)
-![setup](images/rzeczpospolita polska.gif)
+![colors](images/colors.gif)
+![bill](images/rzeczpospolitapolska.gif)
+
 ## Connection
 If you get your sensor from a mouse, you can just unsolder the driver IC and solder some goldpins for easy connection. If you want to create standalone module, here's scheme:
 ![scheme](images/scheme.jpg)
