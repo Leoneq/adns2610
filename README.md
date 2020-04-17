@@ -44,7 +44,6 @@ adns.readFrame(frame, 'r');
 for(int s=0; s < 324; s++) Serial.write((byte) frame[s]);
 ```
 This will capture the frame into `byte frame[324]` - the resolution of sensor is 18x18, what gives us 324 pixels. Then we send the frame via serial. Second argument is optional, it tells the library in what color you want the frame.
-![hand](images/hand.jpg)
 ```
 Serial.println(adns.getAvgPixel('r'));
 Serial.println(adns.getAvgPixel('g'));
@@ -66,8 +65,9 @@ For further documentation, check the library .cpp file or the example .ino file.
 ## Processing
 I've also made the Processing sketch, to read grayscale or color image. The grayscale 'video' is at almost 5 FPS, the color one - about 1 FPS. Just open the .pde file and change the code to your setup.
 
-![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)![green](images/green.jpg)
+![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)![hand](images/hand.jpg)
 ![test subjects](images/testsubjects.jpg)
+![green](images/green.jpg)![red](images/red.jpg)![blue](images/blue.jpg)![yellow](images/yellow.jpg)
 
 ------------
 
