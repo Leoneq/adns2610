@@ -15,7 +15,7 @@ If you get your sensor from a mouse, you can just unsolder the driver IC and sol
 ![scheme](images/scheme.jpg)
 You also have to connect a red LED, or RGB LED to your microcontroller. Then, mount your LED near stock lenses. If you want, there's 3D model to print for OV7670 lenses.
 As far as I did, the library works on Arduino Nano and NodeMCU, with Arduino IDE and Platformio. Other platforms are untested.
-![3d print](images/3dprint.jpg)
+![3d print](images/3dprintv2.jpg)
 ## Configuration
 Implementing your mouse is very simple. Just create a mouse object:
 ```
@@ -66,8 +66,8 @@ For further documentation, check the library .cpp file or the example .ino file.
 ## Processing
 I've also made the Processing sketch, to read grayscale or color image. The grayscale 'video' is at almost 5 FPS, the color one - about 1 FPS. Just open the .pde file and change the code to your setup.
 
-![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)
-![test subjects](images/test subjects.jpg)
+![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)![green](images/green.jpg)
+![test subjects](images/testsubjects.jpg)
 
 ------------
 
