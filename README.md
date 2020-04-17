@@ -59,13 +59,18 @@ min = adns.getMinPixel();
 max = adns.getMaxPixel();
 ```
 And this snippet of code reads the relative delta in x and y. Those are read almost immediately. `getMinPixel()` and `getMaxPixel()` gives the value of darkest and brightest pixels.
+
 https://youtu.be/4JJ6709RsyY
+
 For further documentation, check the library .cpp file or the example .ino file.
 ## Processing
 I've also made the Processing sketch, to read grayscale or color image. The grayscale 'video' is at almost 5 FPS, the color one - about 1 FPS. Just open the .pde file and change the code to your setup.
+
 ![eevee](images/eevee.jpg)![wheel](images/wheel.jpg)![123](images/123.jpg)
 ![test subjects](images/test subjects.jpg)
+
 ------------
+
 Happy mouse hacking!
 
 The library is based on code by Conor Peterson (robotrobot@gmail.com), at https://conorpeterson.wordpress.com/2010/06/04/optical-mouse-hacking-part-1/
