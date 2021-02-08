@@ -50,7 +50,7 @@ Serial.println(adns.getAvgPixel('g'));
 Serial.println(adns.getAvgPixel('b'));
 ```
 This reads average pixel value, and if you want, in defined color.
-![color check](images/pink monopoly.jpg)
+![color check](images/pinkmonopoly.jpg)
 ```
 x = adns.getDeltaX();
 y = adns.getDeltaY();
